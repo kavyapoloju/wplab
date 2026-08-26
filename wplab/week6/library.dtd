@@ -1,0 +1,18 @@
+<!ELEMENT library (book+)>
+<!ELEMENT book (bid,title,author*,pub,cover,pages,rating,value,location,comment?)>
+<!ELEMENT bid EMPTY>
+<!ATTLIST bid bno CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author nickname CDATA #IMPLIED>
+<!ELEMENT pub (#PCDATA)>
+<!ELEMENT cover EMPTY>
+<!ATTLIST cover make (hardbound | paperbound) #REQUIRED>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT rating EMPTY>
+<!ATTLIST rating quality (poor | avg | good | excellent) #REQUIRED>
+<!ELEMENT value EMPTY>
+<!ATTLIST value mkt CDATA #REQUIRED price CDATA #REQUIRED>
+<!ELEMENT location EMPTY>
+<!ATTLIST location place CDATA #FIXED "CVSR">
+<!ELEMENT comment (#PCDATA)>

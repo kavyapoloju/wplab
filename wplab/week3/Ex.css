@@ -1,0 +1,25 @@
+body {
+    background: #EAF2F8;
+    color: #1B2631;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+table {
+    margin: 20px auto;
+    padding: 20px;
+    border: 6px groove #5DADE2;
+}
+
+tr {
+    font-size: large;
+    background: #D6EAF8;
+}
+
+td {
+    font-size: large;
+    padding: 6px;
+}
+
+h1 {
+    color: #1B4F72;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+	<book>
+		<bid bno="100"/>
+		<title>Java Programming</title>
+		<author>abc</author>
+		<author nickname="who">xyz</author>
+		<pub>BPB pub</pub>
+		<cover make="hardbound"/>
+		<pages>300</pages>
+		<rating quality='good'/>
+		<value mkt="whole sale" price="250.00"/>
+		<location place="CVSR"/>
+		<comment>this is a good book</comment>
+	</book>
+	<book>
+		<bid bno="101"/>
+		<title>C Programming</title>
+		<author>balaguruswami</author>
+		<pub>BPB pub</pub>
+		<cover make="hardbound"/>
+		<pages>250</pages>
+		<rating quality="excellent"/>
+		<value mkt="market" price="300.00"/>
+		<location place="CVSR"/>
+	</book>
+</library>
